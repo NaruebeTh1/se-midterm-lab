@@ -1,0 +1,13 @@
+
+โครงสร้างของ Entity รายการพัสดุ
+
+type ParcelList struct {
+    grom.Model
+
+    ParcelNumber    string
+    ParcelName      string
+    ParcelAmout     int
+    ParcelUnit      string
+    ParcelType      string
+    
+}
