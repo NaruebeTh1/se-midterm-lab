@@ -9,5 +9,15 @@ type ParcelList struct {
     ParcelAmout     int
     ParcelUnit      string
     ParcelType      string
-    
+}
+
+โครงสร้างของ Entity รายการเบิกจ่ายพัสดุ
+
+
+type ParcelList struct {
+    grom.Model
+
+    PinkUpParcelNumber  string
+    PinkUpParcelName    string
+    PinkUpParcelAmout   int
 }
